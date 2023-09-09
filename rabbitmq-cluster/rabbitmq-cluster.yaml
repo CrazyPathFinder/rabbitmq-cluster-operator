@@ -7,3 +7,5 @@ spec:
   rabbitmq:
     additionalConfig: |
       log.console.level = debug
+    additionalPlugins:
+      - rabbitmq_mqtt
